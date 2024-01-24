@@ -1,0 +1,269 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+  nav ul li:nth-child(1) {
+    padding-left: 0px !important;
+  }
+  /* banner start */
+  .banner {
+    padding: 10px 30px;
+    text-align: center;
+  }
+  .banner_h1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .banner_p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .banner_btn {
+    margin-top: 0;
+    padding: 16px 45px;
+  }
+  .cus_m {
+    margin-top: 25px;
+    padding: 0 15px;
+  }
+  .cus_border {
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+  }
+  .c_item {
+    padding: 10px 0 10px;
+  }
+  /* banner end */
+  /* features start */
+  .features {
+    padding: 10px 30px;
+  }
+  .features_h2 {
+    font-size: 18px;
+  }
+  .features_p {
+    font-size: 14px;
+  }
+  /* features end */
+  /* plan start */
+  .plan {
+    padding: 10px 30px;
+  }
+  .plan_options {
+    margin: 0px auto 40px auto;
+    padding: 20px 0px;
+  }
+  .plan_h4 {
+    margin: 20px auto 12px auto;
+  }
+  /* plan end */
+  /* icon */
+  .s_icon {
+    padding: 10px 30px;
+  }
+  /* icon */
+  /* network start */
+  .network {
+    padding: 10px 30px;
+  }
+  .network_img {
+    margin: 10px auto 10px auto;
+  }
+  /* network end */
+  /* footer start */
+  .footer {
+    padding: 150px 30px 10px;
+  }
+  .footer .f_text {
+    text-align: center;
+  }
+
+  .footer .f_links {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .footer .f_links h4 {
+    margin: 0;
+  }
+  .footer .f_copyright {
+  }
+  .subscribe {
+    text-align: center;
+    padding: 15px 20px;
+  }
+  .position-absolute {
+    width: 95%;
+  }
+  /* footer end */
+  /* testimonial start */
+  .testimonial {
+    padding: 10px 30px 150px;
+    text-align: center;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 50%;
+  }
+  .t_img img {
+    margin: 0 auto;
+    height: 50px;
+    width: 50px !important;
+    border-radius: 50%;
+  }
+  .t_star {
+    justify-content: center;
+  }
+  /* testimonial end */
+  /*  */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav ul li:nth-child(1) {
+    padding-left: 0px !important;
+  }
+  /* banner start */
+  .banner {
+    text-align: center;
+  }
+  .banner_h1 {
+  }
+  .banner_p {
+  }
+  .banner_btn {
+    margin: 0;
+  }
+  .banner_img {
+    margin-bottom: 30px;
+  }
+  .cus_m {
+    margin-top: 25px;
+  }
+  .cus_border {
+  }
+  /* banner end */
+  /* features start */
+  .features {
+    text-align: center;
+    padding: 50px 0px 60px;
+  }
+  .features_h2 {
+  }
+  .features_p {
+  }
+  /* features end */
+  /* plan start */
+
+  .plan_options {
+    margin: 20px auto 40px auto;
+    padding: 33px 0px;
+  }
+  .plan_h4 {
+  }
+  /* plan end */
+
+  /* network start */
+  .network {
+  }
+  /* network end */
+  /* footer start */
+  .footer {
+  }
+  .network_img {
+    margin: 40px auto 0px auto;
+  }
+  .footer .f_text {
+  }
+  .footer .f_links {
+  }
+  .footer .f_links h4 {
+  }
+  .footer .f_copyright {
+  }
+  .subscribe {
+    text-align: center;
+    padding: 40px 0;
+  }
+  .position-absolute {
+    width: 95%;
+  }
+  /* footer end */
+  /* testimonial start */
+  .testimonial {
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 50%;
+  }
+  /* testimonial end */
+  /*  */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav ul li:nth-child(1) {
+    padding-left: 0px !important;
+  }
+  .banner {
+    text-align: center;
+    padding: 70px 0 40px;
+  }
+  .banner_btn {
+    margin-top: 0;
+  }
+  .banner_img {
+    margin-bottom: 30px;
+  }
+  .cus_m {
+    margin-top: 40px;
+  }
+  /* plan start */
+  .plan_p span {
+    font-size: 14px;
+  }
+  /* plan end */
+  .plan_options:hover .plan_btn {
+    background: #f53838;
+    color: #cdcdcd !important;
+    box-shadow: 20px 20px 50px 10px pink;
+  }
+  /* subscribe start */
+  .subscribe {
+    text-align: center;
+    padding: 70px 0px 80px;
+  }
+  /* subscribe end */
+  /* features start */
+  .features {
+    padding: 30px 0 80px;
+  }
+  /* features end */
+  /* plan */
+  .plan_options {
+    margin: 39px auto 50px auto;
+    padding: 45px 0px;
+    align-items: center;
+  }
+  /* plan */
+  .testimonial {
+    padding: 70px 0 190px;
+  }
+  .footer {
+    padding: 190px 0 70px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ...;
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  ...;
+}
+
+/* Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  ...;
+}
